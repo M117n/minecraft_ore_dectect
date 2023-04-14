@@ -1,0 +1,6 @@
+classes = 10
+train = C:\Users\maart\Desktop\Martin\Minecraft_proyect\2\data_set_minecraft\608x608\train.txt
+valid = C:\Users\maart\Desktop\Martin\Minecraft_proyect\2\data_set_minecraft\608x608\valid.txt
+names = C:/Users/maart/Desktop/Martin/Minecraft_proyect/2/data_set_minecraft/608x608/minecraft_blocks.names
+backup = C:/Users/maart/Desktop/Martin/Minecraft_proyect/2/data_set_minecraft/608x608/trained weights
+
