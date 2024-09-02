@@ -1,15 +1,57 @@
-# minecraftores
-Minecraft ores detection using YOLOv4-tiny
+# Minecraft Ore Detection using YOLOv4-tiny
 
-Summary:
+This project implements a real-time ore detection system in Minecraft using the YOLOv4-tiny neural network. The system analyzes the game screen to highlight ores, making resource gathering easier for players.
 
-In this project, a real-time block detection system was implemented for the video game Minecraft using the YOLOv4 neural network architecture and Python. The training and testing process of the detection model was carried out in a Windows environment with Visual Studio 2019 and TensorFlow. Additionally, the code was adapted to work in a Linux environment using WSL2.
+## Features
 
-Project highlights:
+- Real-time detection of Minecraft ores.
+- Utilizes YOLOv4-tiny for fast and efficient object detection.
+- Customizable for different Minecraft versions and resource packs.
 
-Configuration and preparation of the development environment, including the installation of necessary packages and libraries such as OpenCV, TensorFlow, and Darknet.
-Adaptation of the real-time detection script to work with transparent images and a always-on-top window, allowing for a better user experience when playing Minecraft.
-Implementation of YOLOv4 in TensorFlow, allowing for the utilization of GPU acceleration capabilities and simplifying the training and testing process.
-Use of custom training techniques and hyperparameter optimization to improve the accuracy and efficiency of the detection model.
-Effective collaboration with an AI virtual assistant to solve problems and develop solutions throughout the project.
-This project demonstrates solid skills in the development of artificial intelligence and deep learning-based applications, as well as experience in adapting solutions to different environments and platforms.
+## Prerequisites
+
+- Python 3.6 or higher
+- OpenCV
+- TensorFlow
+- PyTorch
+- Other dependencies in `requirements.txt`
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/M117n/minecraft_ore_dectect.git
+   ```
+
+2. Navigate to the project directory:
+```bash
+cd minecraft_ore_dectect
+```
+3. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+##Usage
+1. Start Minecraft in windowed mode.
+2. Run the detection script:
+```bash
+python detect.py
+```
+3. The script will display a real-time feed with highlighted detected ores.
+
+## Configuration
+- Edit config.yaml to adjust parameters like confidence thresholds, model paths, or screen capture settings.
+- 
+## Contributing
+Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+1. YOLOv4-tiny for the base detection model.
+2. OpenCV and TensorFlow communities for their tools and documentation.
+
+##Contact
+For any questions or suggestions, please open an issue or contact the repository owner directly.
