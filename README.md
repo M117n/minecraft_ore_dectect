@@ -1,6 +1,6 @@
 # Minecraft Ore Detection using YOLOv4-tiny
 
-This project implements a real-time ore detection system in Minecraft using the YOLOv4-tiny neural network. The system analyzes the game screen to highlight ores, making resource gathering easier for players.
+This implements a real-time ore detection system in Minecraft using the YOLOv4-tiny neural network. The system analyzes the game screen to highlight ores, making resource gathering easier for players.
 
 ## Features
 
